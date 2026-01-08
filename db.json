@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@paytrack.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "avatar": "",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "email": "user@paytrack.com",
+      "password": "user123",
+      "name": "Test User",
+      "avatar": "",
+      "createdAt": "2024-01-15T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Ăn uống",
+      "icon": "🍔",
+      "type": "expense",
+      "color": "#ef4444"
+    },
+    {
+      "id": "2",
+      "name": "Di chuyển",
+      "icon": "🚗",
+      "type": "expense",
+      "color": "#f97316"
+    },
+    {
+      "id": "3",
+      "name": "Mua sắm",
+      "icon": "🛍️",
+      "type": "expense",
+      "color": "#eab308"
+    },
+    {
+      "id": "4",
+      "name": "Giải trí",
+      "icon": "🎮",
+      "type": "expense",
+      "color": "#84cc16"
+    },
+    {
+      "id": "5",
+      "name": "Hóa đơn",
+      "icon": "📄",
+      "type": "expense",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "6",
+      "name": "Y tế",
+      "icon": "🏥",
+      "type": "expense",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "7",
+      "name": "Giáo dục",
+      "icon": "📚",
+      "type": "expense",
+      "color": "#ec4899"
+    },
+    {
+      "id": "8",
+      "name": "Khác",
+      "icon": "📦",
+      "type": "expense",
+      "color": "#6b7280"
+    },
+    {
+      "id": "9",
+      "name": "Lương",
+      "icon": "💰",
+      "type": "income",
+      "color": "#22c55e"
+    },
+    {
+      "id": "10",
+      "name": "Thưởng",
+      "icon": "🎁",
+      "type": "income",
+      "color": "#10b981"
+    },
+    {
+      "id": "11",
+      "name": "Đầu tư",
+      "icon": "📈",
+      "type": "income",
+      "color": "#14b8a6"
+    },
+    {
+      "id": "12",
+      "name": "Thu nhập khác",
+      "icon": "💵",
+      "type": "income",
+      "color": "#059669"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "5",
+      "userId": "2",
+      "categoryId": "9",
+      "amount": 12000000,
+      "type": "income",
+      "description": "Lương tháng 1",
+      "date": "2026-01-05T00:00:00.000Z",
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "b39d",
+      "categoryId": "9",
+      "amount": 8000000,
+      "type": "income",
+      "description": "",
+      "date": "2026-01-08T00:00:00.000Z",
+      "userId": "1",
+      "createdAt": "2026-01-08T02:58:37.106Z"
+    }
+  ],
+  "budgets": []
+}
